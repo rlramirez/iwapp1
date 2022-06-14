@@ -11,7 +11,7 @@ body{
 }
 
 .cabeceraPrincipal, .menuPrincipal, .sliderPrincipal, main{
-	background: #ccc;
+	background: #fff;
 	color: #fff;
 	width: 90%;
 	margin: 0 auto;
@@ -49,6 +49,7 @@ body{
 	text-align: center;
 	padding: 2em 0;
 	color: #DB6900;
+	font-size: 40px;
 }
 .menu{
 	text-align: center;
@@ -58,12 +59,34 @@ body{
 	background: #EDEDED;
 	border: 1px solid #BBB6B6;
 	box-sizing: border-box;
-	height: 200px;
 	margin-bottom: 1px;
 	border-radius: 5px;
 	display: inline-block;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
+}
+.menuPlato img{
+	width: 100%;
+}
+.menuPlato h3{
+	color: #DB6900;
+	text-align: center;
+	padding: 1em 0;
+}
+.menuPlato p{
+	padding: 0.2em 1em;
+	font-size: 13px;
+	color: #494848;
+
+}
+.menuPlato button{
+	background-color: #07738A;
+	color: #fff;
+	padding: 0.5em 1em;
+	margin-bottom: 5px;
+}
+main{
+	background-color: #ccc;
 }
 
 
@@ -74,4 +97,21 @@ body{
 .piePagina h6{
 	text-align: center;
 	padding: 2em 0;
+}
+
+
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: blue;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+	.menuPlato{
+		width: 90%;
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 10px;
+	}
+
 }
