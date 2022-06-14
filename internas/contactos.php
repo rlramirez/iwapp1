@@ -12,13 +12,14 @@
 	</header>
 	<nav class="menuPrincipal">
 		<a href="../">Inicio</a>
-		<a href="../prueba.php">Quines somos</a>
 		<a href="">Empresa</a>
-		<a href="">Reeservas</a>
-		<a href="internas/contactos.php">Contactos</a>
+		<a href="contactos.php">Contactos</a>
+		<a href="">Registro</a>
+		<a href="">Login</a>
 	</nav>
 	
 	<main>
+		<div class="boxCentrado">
 		<h2 class="h2Home">Contactos</h2>
 		<form method="post" action="procesar.php">
 			<div class="grupoInput">
@@ -42,9 +43,10 @@
 				</select>
 			</div>
 			<div class="grupoInput">
-			 <button type="submit" value="Procesar">Procesar</button>
+			 <button type="submit" value="Procesar" class="btn-submit">Procesar</button>
 			</div>
 		</form>
+		</div>
 	</main>
 	<footer class="piePagina"><h6>Derechos Reservados 2022</h6></footer>
 </body>
