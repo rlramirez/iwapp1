@@ -20,16 +20,21 @@
 	
 	<main>
 		<div class="boxCentrado">
-		<h2 class="h2Home">Lista de Usuarios</h2>
-		<?php
-			include("../dll/config.php");
-			include("../dll/class_mysqli.php");
-
-			$miconexion = new clase_mysqli;
-			$miconexion->conectar(DBHOST, DBUSER, DBPASS, DBNAME);
-			$miconexion->consulta("select id 'CODIGO', nombres NOMBRES, apellidos APELLDIOS, correo CORREO from usuarios");
-			$miconexion->verconsulta();
-		?>
+		<h2 class="h2Home">Ingeso al sistema</h2>
+		<form method="post" action="../dll/validar.php">
+			<div class="grupoInput">
+				<label for="correo">Correo</label>
+				<input type="email" name="correo" id="correo" placeholder="Ingrese su correo">
+			</div>
+			<div class="grupoInput">
+				<label for="clave">Contraseña</label>
+				<input type="password" name="clave" id="clave" placeholder="Ingrese su Contraseña">
+			</div>
+			
+			<div class="grupoInput">
+			 <button type="submit" value="Procesar" class="btn-submit">Ingresar</button>
+			</div>
+		</form>
 		</div>
 	</main>
 	<footer class="piePagina"><h6>Derechos Reservados 2022</h6></footer>

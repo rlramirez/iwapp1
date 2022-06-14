@@ -14,8 +14,8 @@
 		<a href="../">Inicio</a>
 		<a href="">Empresa</a>
 		<a href="contactos.php">Registro</a>
-		<a href="">Listado</a>
-		<a href="">Login</a>
+		<a href="listados.php">Listado</a>
+		<a href="login.php">Login</a>
 	</nav>
 	
 	<main>
