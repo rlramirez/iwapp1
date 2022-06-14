@@ -13,8 +13,8 @@
 	<nav class="menuPrincipal">
 		<a href="../">Inicio</a>
 		<a href="">Empresa</a>
-		<a href="contactos.php">Contactos</a>
-		<a href="">Registro</a>
+		<a href="contactos.php">Registro</a>
+		<a href="">Listado</a>
 		<a href="">Login</a>
 	</nav>
 	
@@ -33,6 +33,10 @@
 			<div class="grupoInput">
 				<label for="correo">Correo</label>
 				<input type="email" name="correo" id="correo" placeholder="Ingrese su correo">
+			</div>
+			<div class="grupoInput">
+				<label for="clave">Clave</label>
+				<input type="password" name="clave" id="clave" placeholder="Ingrese su clave">
 			</div>
 			<div class="grupoInput">
 				<label for="tipoUser">Tipo de usuario</label>

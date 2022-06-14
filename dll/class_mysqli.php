@@ -58,7 +58,7 @@ class clase_mysqli{
 		return mysqli_num_rows($this->Consulta_ID);
 	}
 	function verconsulta(){
-		echo "<table class='tablecud' border=1>";
+		echo "<table class='tablecud'>";
 		echo "<tr>";
 		for ($i=0; $i < $this->numcampos() ; $i++) { 
 			//echo "<td>".$this->nombrecampo($i)."</td>";
