@@ -17,7 +17,7 @@
             $_SESSION['username'] = $list[1]." ".$list[2];
 	         $_SESSION['roll'] = $list[5]; 
             //$_SESSION['local_path']=$local_path;
-            echo "<script>location.href='../administrator/dashboard.php'</script>";
+            echo "<script>location.href='../administrator/index.php'</script>";
 		}else{
 			echo '<script>alert("Datos Incorrectos...");</script>';
 	        echo "<script>location.href='../internas/login.php'</script>";
